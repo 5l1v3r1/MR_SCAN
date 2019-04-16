@@ -35,6 +35,7 @@ def scan():
     mout_ip()
     global full_ip
     try:
+        print('Scanning', full_ip, end="\r")
         subprocess.check_output(["ping", "-c", "1", full_ip])
         sys.stdout.write(GREEN + '[+] '); sys.stdout.write(YELLOW + full_ip); sys.stdout.write(WHITE + ' is reachable' + '\n')
         next_ip()
