@@ -5,6 +5,7 @@ MR_SCAN is a python3 script that scan your network using pings
 
 ## Next updates:
 
+* 1 second per request
 * MAC address finder
 * Vendor Finder
 * Device conection power (how much does it take connection in the network)
