@@ -1,11 +1,16 @@
 import sys, os, subprocess
+if platform.system() is "Windows":
+    print('You are using a Windows OS !')
+    print('This program has been made for linux only. sorry !')
+    print('but you can note that the program might work on Mac OS.')
+    exit()
 BLUE, RED, WHITE, YELLOW, MAGENTA, GREEN, END = '\33[94m', '\033[91m', '\33[97m', '\33[93m', '\033[1;35m', '\033[1;32m', '\033[0m'
 full_ip = ''
 dot = '.'
-ip_base = '192.168'
+ip_base = '192.168' #I will make this part customisable later.
 ip_sub = '0'
 ip_sub2 = '0'
-#schéma de montage ip = ip_base + ip_sub + ip_sub2 , ne pas oublier le 'dot' pour faire le point de séparation !
+#here is how the ip should be mounted as a string ip = ip_base + ip_sub + ip_sub2 , do not forget to use 'dot' !
 os.system('clear')
 def banner():
     """ Create a very cool banner ! """
