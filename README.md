@@ -1,7 +1,8 @@
 ![MR_LOGO](https://i.imgur.com/TMCZw0G.png)
 
 # MR_SCAN v1.0
-MR_SCAN is a python3 script that scan your network using pings
+MR_SCAN is a python3 script that scan your network using pings.
+Note that this project has been only made for Linux.
 
 ## Next updates:
 
